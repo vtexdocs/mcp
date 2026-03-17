@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.png" alt="VTEX Docs MCP" width="100%">
+</p>
 <h1 align="center">VTEX Docs MCP</h1>
 <p align="center">
   <strong>Connect your AI coding assistant to the full VTEX documentation — search and retrieve 3,000+ articles directly from your editor.</strong>
