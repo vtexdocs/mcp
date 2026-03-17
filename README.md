@@ -9,7 +9,8 @@
   <a href="#quick-start">Quick Start</a> •
   <a href="#platform-setup">Platforms</a> •
   <a href="#available-tools">Available Tools</a> •
-  <a href="#usage-examples">Examples</a>
+  <a href="#usage-examples">Examples</a> •
+  <a href="#documentation-sources">Sources</a>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/platforms-6-F71963" alt="6 platforms">
@@ -26,6 +27,21 @@
 The VTEX Docs MCP is a remote [Model Context Protocol](https://modelcontextprotocol.io) server that gives AI coding assistants direct access to VTEX's complete documentation. It covers both the [Help Center](https://help.vtex.com) and the [Developer Portal](https://developers.vtex.com) — over 3,000 articles on APIs, integrations, platform concepts, and implementation guides.
 
 No API key or authentication required. Just add the server URL to your tool's config and start asking questions. Works with Cursor, VS Code, Claude, Windsurf, OpenCode, and any other tool that supports MCP.
+
+---
+
+## Documentation Sources
+
+The content served by this MCP comes directly from two public repositories maintained by the VTEX Education team:
+
+| Source | Repository | Content |
+|---|---|---|
+| [Help Center](https://help.vtex.com) | [`vtexdocs/help-center-content`](https://github.com/vtexdocs/help-center-content) | Tutorials, guides, and platform documentation |
+| [Developer Portal](https://developers.vtex.com) | [`vtexdocs/dev-portal-content`](https://github.com/vtexdocs/dev-portal-content) | API references, integration guides, and developer documentation |
+
+The MCP index updates automatically whenever these repositories are updated, so the documentation your AI assistant sees is always in sync with the latest published content.
+
+**Found something wrong or missing?** Open a PR or issue directly in the content repository — improvements to the docs will be reflected in the MCP automatically.
 
 ---
 
